@@ -48,6 +48,7 @@ const EmailVerification = () => {
         toast.success(data.message);
         getUserData();
         navigate("/");
+      
       } else {
         toast.error(data.message);
       }
